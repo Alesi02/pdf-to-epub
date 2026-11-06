@@ -1,0 +1,25 @@
+# Libros y resultados
+*.pdf
+*.epub
+epub/
+tmp/
+output/
+tests/samples/
+
+# Entornos, cachés y configuración local
+.venv/
+venv/
+.vendor/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+.codex/
+.agents/
+.idea/
+.vscode/
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
