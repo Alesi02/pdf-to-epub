@@ -23,3 +23,8 @@ __pycache__/
 *.tmp
 Thumbs.db
 .DS_Store
+
+# Pruebas conservadas solo en el entorno local
+internos/test_*.py
+internos/run_tests.py
+.github/workflows/tests.yml

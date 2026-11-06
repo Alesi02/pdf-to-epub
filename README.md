@@ -34,16 +34,6 @@ Hay más detalles de funcionamiento y limitaciones en [LEEME.md](LEEME.md).
 .venv\Scripts\python.exe internos\convertir.py --validar "epub\libro.epub"
 ```
 
-## Pruebas
-
-Las pruebas unitarias se ejecutan sin libros externos:
-
-```powershell
-.venv\Scripts\python.exe internos\run_tests.py
-```
-
-Las pruebas adicionales sobre páginas de libros originales no distribuidos se ejecutan con `--fuentes`. Colocá las muestras en `tests/samples` o indicá otra carpeta con la variable `PDF_EPUB_SAMPLE_DIR`. Los nombres y páginas utilizados están descritos en `internos/test_source_samples.py`. Los PDF y EPUB no forman parte del repositorio.
-
 ## Componentes incluidos
 
 Los diccionarios conservan sus licencias y avisos originales. Ver [THIRD_PARTY.md](THIRD_PARTY.md). Las dependencias de Python se instalan a partir de `internos/requirements.txt`.
